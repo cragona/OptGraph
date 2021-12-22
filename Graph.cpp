@@ -1,8 +1,6 @@
 #pragma once
 #include "Graph.h"
 
-// Adds the passed block to this graph. Potentially renames the block prior to insertion to guarantee
-// each block in the graph has a unique name.
 void Graph::AddBlock(Block* block)
 {
     GenerateUniqueName(block);
@@ -11,7 +9,7 @@ void Graph::AddBlock(Block* block)
 
 void Graph::InsertBlock(std::unique_ptr<Block> newBlock)
 {
-    auto tester = m_blockMap.emplace(newBlock->GetName(), std::move(newBlock));
+    m_blockMap.emplace(newBlock->GetName(), std::move(newBlock));
 }
 
 std::list<Block*> Graph::GetBlocks()
