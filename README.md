@@ -1,6 +1,6 @@
 # OptGraph
-
-Mathworks software engineer c++ offline programing problem
+Mathworks software engineer c++ offline programing problem\
+(console timing text at the bottom as well see images)
 
 My solution was to use unordered STL containers. The Graph container is an unordered map. The key for the map is the unique 
 block name while the value is pointer to the block. Block pointers are created in the main class and passed into the graph class
@@ -71,4 +71,17 @@ When you're done, please send me three things:
 - A brief description of the changes that you made.
 
 Good luck, and feel free to get in touch if you have any specific questions.
-*/
+
+
+Optimzed:\
+Measure_AddBlocks took: 1131ms.\
+Measure_FindAttributesByBlock took: 33ms.\
+Measure_FindBlocksByAttribute took: 951ms.\
+Total program time: 2115ms.\
+
+Unoptimized:\
+Measure_AddBlocks took: 99490ms.\
+Measure_FindAttributesByBlock took: 333ms.\
+Measure_FindBlocksByAttribute took: 134108ms.\
+Total program time: 233931ms.
+
