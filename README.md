@@ -79,9 +79,15 @@ Measure_FindAttributesByBlock took: 33ms.\
 Measure_FindBlocksByAttribute took: 951ms.\
 Total program time: 2115ms.\
 
+![image](https://user-images.githubusercontent.com/35575941/147156785-a1d33c3d-5fc2-4a8b-8a1f-4dea5a1bb8bb.png)
+
+
 Unoptimized:\
 Measure_AddBlocks took: 99490ms.\
 Measure_FindAttributesByBlock took: 333ms.\
 Measure_FindBlocksByAttribute took: 134108ms.\
 Total program time: 233931ms.
+
+![image](https://user-images.githubusercontent.com/35575941/147156772-79bef090-757f-49a5-b33d-4a49c2505d42.png)
+
 
