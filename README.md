@@ -79,7 +79,7 @@ Measure_FindAttributesByBlock took: 33ms.\
 Measure_FindBlocksByAttribute took: 951ms.\
 Total program time: 2115ms.\
 
-Unptimized:\
+Unoptimized:\
 Measure_AddBlocks took: 99490ms.\
 Measure_FindAttributesByBlock took: 333ms.\
 Measure_FindBlocksByAttribute took: 134108ms.\
