@@ -1,5 +1,5 @@
 # OptGraph
-Mathworks software engineer c++ offline programing problem
+Mathworks software engineer c++ offline programing problem\
 (console timing text at the bottom as well see images)
 
 My solution was to use unordered STL containers. The Graph container is an unordered map. The key for the map is the unique 
@@ -73,8 +73,8 @@ When you're done, please send me three things:
 Good luck, and feel free to get in touch if you have any specific questions.
 
 
-Optimzed:
-Measure_AddBlocks took: 1131ms.
-Measure_FindAttributesByBlock took: 33ms.
-Measure_FindBlocksByAttribute took: 951ms.
-Total program time: 2115ms.
+Optimzed:\
+Measure_AddBlocks took: 1131ms.\
+Measure_FindAttributesByBlock took: 33ms.\
+Measure_FindBlocksByAttribute took: 951ms.\
+Total program time: 2115ms.\
